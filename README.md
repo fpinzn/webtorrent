@@ -429,6 +429,15 @@ File path, as specified by the torrent. *Example: 'some-folder/some-filename.txt
 
 File length (in bytes), as specified by the torrent. *Example: 12345*
 
+#### `file.pieces`
+
+Array containing the pieces of the file.
+
+#### `file.pieceLength`
+
+Length(in bytes) of the pieces of the torrent. This value is the same for all the files in the torrent. *Example: 12345*
+
+
 #### `file.select()`
 
 Selects the file to be downloaded, but at a lower priority than files with streams.
