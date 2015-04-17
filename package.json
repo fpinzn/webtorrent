@@ -1,7 +1,7 @@
 {
   "name": "webtorrent",
   "description": "Streaming torrent client",
-  "version": "0.30.0",
+  "version": "0.32.0",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
@@ -15,7 +15,6 @@
     "./server": false,
     "addr-to-ip-port": false,
     "bittorrent-dht/client": false,
-    "bittorrent-swarm": "webtorrent-swarm",
     "load-ip-set": false,
     "simple-get": false,
     "ut_pex": false
@@ -27,9 +26,9 @@
     "addr-to-ip-port": "^1.0.1",
     "bitfield": "^1.0.2",
     "bittorrent-dht": "^3.0.0",
-    "bittorrent-swarm": "^1.0.0",
+    "bittorrent-swarm": "^2.0.0",
     "block-stream": "0.0.7",
-    "clivas": "^0.1.4",
+    "clivas": "^0.2.0",
     "create-torrent": "^3.4.0",
     "debug": "^2.1.0",
     "dezalgo": "^1.0.1",
@@ -60,7 +59,6 @@
     "torrent-discovery": "^2.0.1",
     "ut_metadata": "^2.1.0",
     "ut_pex": "^1.0.1",
-    "webtorrent-swarm": "0.x",
     "windows-no-runnable": "0.0.6",
     "xtend": "^4.0.0",
     "zero-fill": "^2.2.0"
@@ -71,7 +69,7 @@
     "browserify": "^9.0.3",
     "run-auto": "^1.0.0",
     "standard": "^3.1.1",
-    "tape": "^3.0.3",
+    "tape": "^4.0.0",
     "uglify-js": "^2.4.15",
     "zelda": "^2.0.0",
     "zuul": "^2.0.0"
